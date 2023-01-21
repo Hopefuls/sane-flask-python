@@ -4,6 +4,8 @@ A very crude attempt at implementing sane (Scanner Access Now Easy) in Python us
 
 My general idea was to hook this up to a Raspberry PI to connect to the printer, to then host a webserver on it that also allows me to manage scanned documents. Have not had time to implement yet.
 
+I have also implemented a Job Queue for the scans, so that multiple scans can be queued up, and then be processed one after another. Just a small extra feature I thought would be nice.
+
 ## Credits
 - [SANE](https://www.sane-project.org/) <small> good shit fr</small>
 - [Flask](https://flask.palletsprojects.com/en/2.2.x/)
